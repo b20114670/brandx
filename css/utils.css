@@ -5,3 +5,12 @@
 .fixed {
   position: fixed;
 }
+
+.side-by-side {
+  display: flex; 
+} 
+
+.side-by-side div {
+  width: 50%; 
+  padding: 12px 12px 12px 12px; 
+}
