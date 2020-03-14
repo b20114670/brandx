@@ -1,0 +1,33 @@
+.nav-container {
+  /* position: fixed;
+  this line causes two issues: 
+  issue 1. The dropdown menu becomes disabled after clicked + scroll 
+  issue 2. The "reviews section" does not fall into place correctly 
+  - One workaround may be to not have the menu fixed and instead add a "back to top" button 
+  */
+  position: fixed;
+  display: flex;
+  min-width: 100%;
+  border: 2px solid black;
+  background: white;
+}
+
+nav {
+  /* padding-top: 28px; */
+  top: 28px;
+  position: fixed; /* I think this causes the dropdown button to be disabled  */
+  background-color: white;
+}
+
+nav a {
+  display: block;
+}
+nav div {
+  padding-left: 15px;
+}
+
+.logo-container img {
+  position: absolute;
+  left: 50%;
+  max-width: 48px;
+}
