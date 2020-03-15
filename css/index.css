@@ -3,6 +3,7 @@
 @import "utils.css";
 @import "nav.css";
 @import "reviews/index.css";
+@import "careers/index.css";
 
 h1 {
     font-size: 32px;
