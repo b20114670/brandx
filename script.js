@@ -4,3 +4,4 @@ $("#reveal").click(function() {
 $("#expand").click(function() {
   $("nav div").slideToggle();
 });
+

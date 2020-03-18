@@ -2,8 +2,18 @@
 @import "variables.css";
 @import "utils.css";
 @import "nav.css";
+@import "footer.css";
 @import "reviews/index.css";
 @import "careers/index.css";
+
+.link {
+    color: blue; 
+} 
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkblue; 
+}
 
 h1 {
     font-size: 32px;
